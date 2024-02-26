@@ -15,7 +15,7 @@ There are two ways of addressing this issue:
 
 1) Make stepper navigation more evident by changing it's position on the screen (move it from bottom to top), increasing the button visiblitity as well as making the stepper navigation visible on the step one (not on the step two), so that the user will instatly be aware of the possible navigation options and use it instead of the browser native 'Back' button.
 
-2) Configure nested routing in the way that when the native broser 'Back' button is pressed, navigate to the previous step, instead of navigation to the home page. It could be done with the Vue Router.
+2) Configure nested routing in the way that when the native broser 'Back' button is pressed, navigate to the previous step, instead of navigation to the home page - can be done with the Vue Router using nested routes.
 
 Making these two changes will illiminate the frustration of going through the whole process all over again by simply trying to correct the previous selection made in the stepper. 
 
@@ -28,25 +28,12 @@ If on the step one user selects "Fish" as the pet, on the second step (where the
 ### 4. Stored user selection
 
 
-## Project Setup
-
-```sh
+# Project Setup
 npm install
-```
 
 ### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
